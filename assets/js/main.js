@@ -162,9 +162,9 @@
     new Typed('.typed.min', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 150,
-      backSpeed: 150,
-      backDelay: 550
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 500
     });
   }
 
