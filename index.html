@@ -58,6 +58,8 @@
           
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="nav-link scrollto" href="https://registry.jsonresume.org/LeonardoFerrisi?theme=paper-plus-plus">Resume</a></li>
+          <li><a class="nav-link scrollto" href="https://github.com/LeonardoFerrisi">Github</a></li>
+          <li><a class="nav-link scrollto" href="https://www.linkedin.com/in/leonardo-ferrisi/">LinkedIn</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -103,7 +105,24 @@
                       <div class="about-info">
                         <p><span class="title-s">Leonardo Ferrisi</span></p>
                         <p><span class="title-s">Email: </span> <span>ferrisil@union.edu</span></p>
-                        <p><span class="title-s">Random Trait: </span> <span>Huge fan of Science Fiction!</span></p>
+
+                        <p><span class="title-s">Random Trait: </span> <span id="random-trait">Huge fan of Science Fiction!</span></p>
+                        <script>
+                          const randomText = ["Huge fan of Science Fiction!", 
+                                              "Mycology Enjoyer", 
+                                              "Seasoned Model Rocket Designer", 
+                                              "I made this website :)", 
+                                              "You're looking great today!",
+                                              "Avid and Rapid Learner",
+                                              "Ad Astra, Per Aspera: 'To the stars, through hardship'",
+                                              "I've been programming since middle school! Been hooked on making things with software ever since.",
+                                              "Aspiring Telepath",
+                                              "Caffiene Connoisseur"
+                                            ];
+                          const randomIndex = Math.floor(Math.random() * randomText.length);
+                          document.getElementById("random-trait").textContent = randomText[randomIndex];
+                        </script>
+                        
                         <!-- <p><span class="title-s">Phone: </span> <span> Email me </span></p> -->
                       </div>
                     </div>
@@ -142,6 +161,14 @@
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                    <span>Molecular Biology: </span> <span class="pull-right">60%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Laboratory Skills: </span> <span class="pull-right">65%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -174,6 +201,11 @@
                         <li>Technology Repair</li>
                         <li>Computational Neuroscience</li>
                         <li>Wet Lab Experience</li>
+                        <li>Fluorescence Microscopy</li>
+                        <li>Molecular Biology</li>
+                        <li>Bioinformatics</li>
+                        <li>Drug Discovery and Development</li>
+                        <li>Cell Cultures: Mammalian, Bactieral, Yeast</li>
                         <li>Machine Learning</li>
                         <li>Multitasking and Organization</li>
                         <li>Project Planning</li>
@@ -181,7 +213,7 @@
                         <li>Robot Operating System (ROS) and Principles of Robotics</li>
                         <li>Operating Systems: Windows, MacOS, Linux</li>
                         <li>Proficiency in <b>English</b>, <b>Italian</b>, and <b>Spanish</b></li>
-                        <li>Proficiency in <b>Python</b>, <b>C</b>, <b>Java</b>, <b>Javascript</b>, <b>R</b>, <b>HTML</b>, <b>CSS</b>, <b>Scheme</b>, <b>Matlab</b></li>
+                        <li>Proficiency in <b>Python</b>, <b>C</b>, <b>Java</b>, <b>Javascript</b>, <b>R</b>, <b>HTML</b>, <b>CSS</b>, <b>Assembly</b>, <b>Scheme</b>, <b>Matlab</b></li>
 
                         
                       </ul>
