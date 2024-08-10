@@ -93,6 +93,25 @@ a:hover {
   }
 }
 
+.bg-image-short {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.project-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+  height: 300px; /* adjust this value to your desired height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .overlay-mf {
   background-color: #000000;
 }
