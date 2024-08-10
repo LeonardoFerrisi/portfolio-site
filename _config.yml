@@ -28,7 +28,7 @@ defaults:
       path: "_categories"
       type: categories
     values:
-      layout: category_page # Set a custom layout (e.g., category.html) for your categories
+      layout: category_page # Set a custom layout (e.g., category_page.html) for your categories
       author: "Leonardo Ferrisi"
 
 
