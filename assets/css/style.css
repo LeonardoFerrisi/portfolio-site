@@ -99,6 +99,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  background-image: url(assets/img/dark-bkgrnd-short.webp);
 }
 
 .project-title {
