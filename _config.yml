@@ -11,7 +11,10 @@ highlighter: rouge
 collections:
   projects:
     output: true
-    permalink: /projects/:title/ # Define how URLs are generated for projects
+    permalink: /categories/projects/:title/ # Define how URLs are generated for projects
+  categories:
+    output: true
+    permalink: /categories/:title/
 
 # Set default values for the projects collection
 defaults:
@@ -21,6 +24,13 @@ defaults:
     values:
       layout: project # Set a custom layout (e.g., project.html) for your projects
       author: "Leonardo Ferrisi"
+  - scope:
+      path: "_categories"
+      type: categories
+    values:
+      layout: category_page # Set a custom layout (e.g., category.html) for your categories
+      author: "Leonardo Ferrisi"
+
 
 # Pagination settings (optional, if you want to paginate project listings)
 paginate: 5
@@ -31,3 +41,4 @@ paginate_path: "/projects/page:num/"
 header_pages:
   - index.html
   - _projects
+  - _categories
