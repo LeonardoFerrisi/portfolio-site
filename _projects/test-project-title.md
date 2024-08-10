@@ -1,5 +1,6 @@
 ---
 title: "Example Project"
+category: "Projects"
 date: 2024-08-10
 ---
 

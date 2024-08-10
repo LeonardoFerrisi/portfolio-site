@@ -26,8 +26,8 @@ title: Projects
   <div class="container d-flex align-items-center justify-content-between">
 
     <!-- LOGO Header -->
-    <a href="index.html" class="logo"><img src="assets/img/logo.webp" alt="" class="img-fluid"></a>
-    <h1 class="logo">{{ page.title }}</h1>
+    <a href="index.html" class="logo"><img src="{{ site.baseurl }}/assets/img/logo.webp" alt="" class="img-fluid"></a>
+    <h1 class="logo">{{ page.category }}</h1>
 
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar">
@@ -46,7 +46,7 @@ title: Projects
 </header><!-- End Header -->
 
 <!-- ======= Primary Project Title Section ======= -->
-<div class="route bg-image-short" style="background-image: url(local_assets/img/dark-bkgrnd-short.webp);">
+<div class="route bg-image-short" style="background-image: url({{ site.baseurl }}/assets/img/dark-bkgrnd-short.webp);">
   <div class="container">
     <h1 class="project-title">{{ page.title }}</h1>      
   </div>
@@ -56,7 +56,7 @@ title: Projects
 <!-- Main Content Section -->
 <main id="main" style="margin-top: 100px;"> <!-- Adjust margin to prevent navbar overlap -->
   <div class="container">
-    <h1>{{ page.title }}</h1>
+    <!-- <h1>{{ page.title }}</h1> -->
     <p>{{ page.date | date_to_string }}</p>
     <br>
     <div>
