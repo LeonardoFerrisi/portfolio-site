@@ -22,7 +22,7 @@ title: Category Layout
 </head>
 
 <!-- Header Section -->
-<header id="header" class="fixed-top">
+<header id="header" class="fixed-top" style="background-color: rgba(0, 0, 0, 0.8) !important">
   <div class="container d-flex align-items-center justify-content-between">
 
     <!-- LOGO Header -->
@@ -31,10 +31,10 @@ title: Category Layout
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link scrollto active" href="{{ site.baseurl }}">Home</a></li>
-        <li><a class="nav-link scrollto" href="{{ site.baseurl }}#about">About</a></li>
-        <li><a class="nav-link scrollto" href="{{ site.baseurl }}#work">Work</a></li>
-        <li><a class="nav-link scrollto" href="{{ site.baseurl }}#contact">Contact</a></li>  
+        <li><a class="nav-link scrollto active" href="https://leonardoferrisi.com">Home</a></li>
+        <li><a class="nav-link scrollto" href="#about">About</a></li>
+        <li><a class="nav-link scrollto" href="https://leonardoferrisi.com#work">Work</a></li>
+        <li><a class="nav-link scrollto" href="https://leonardoferrisi.com#contact">Contact</a></li>  
         <li><a class="nav-link scrollto" href="https://github.com/LeonardoFerrisi">Github</a></li>
         <li><a class="nav-link scrollto" href="https://www.linkedin.com/in/leonardo-ferrisi/">LinkedIn</a></li>
       </ul>
@@ -55,8 +55,8 @@ title: Category Layout
 <!-- Main Content Section -->
 <main id="main" style="margin-top: 100px;"> <!-- Adjust margin to prevent navbar overlap -->
   <div class="container">
-    <h3><b>{{ page.title }}</b></h1>
-    <h3>Last Updated: {{ page.date | date_to_string }}</h3>
+    <h2><b>{{ page.title }}</b></h2>
+    <h5>Last Updated: {{ page.date | date_to_string }}</h5>
     <br>
     <div>
       {{ content }}
@@ -64,7 +64,7 @@ title: Category Layout
   </div>
 
   <!-- ======= Contact Section ======= -->
-  <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/dark-bkgrnd.webp)">
+  <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url({{ site.baseurl }}/assets/img/dark-bkgrnd.webp)">
     <div class="overlay-mf"></div>
     <div class="container">
       <div class="row">
