@@ -11,6 +11,6 @@ BDR aims to solve the complexity required for getting data from biosensing hardw
 BDR utilizes Brainflow and ElectronJS together in a Graphical User Interface that simply, allows users to select their biosensing device and record data from it. 
 
 **BDR is still a work in progress.**
-You can access the latest code via the [BDR Github Page](https://github.com/NRVS-Labs/BrainDataRecorder)
+You can access the latest code via the BDR Github Page: [https://github.com/NRVS-Labs/BrainDataRecorder](https://github.com/NRVS-Labs/BrainDataRecorder)
 
 

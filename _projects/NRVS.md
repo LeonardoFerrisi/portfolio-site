@@ -10,4 +10,4 @@ The goal of NRVS is to provide a platform to connect software developers in neur
 
 NRVS is a growing community of software developers and hobbyists in Neurotechnology.
 
-You can learn more about NRVS via our landing page: https://nrvs-labs.github.io/
+You can learn more about NRVS via our landing page: [https://nrvs-labs.github.io/](https://nrvs-labs.github.io/)
