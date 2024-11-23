@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-date: 2024-08-10
+date: 2024-11-22
 ---
 
 The following are the projects that have their own page through my site.
